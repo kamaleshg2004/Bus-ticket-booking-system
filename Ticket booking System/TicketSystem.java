@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class TicketSystem {
-    private final int totalSeats = 10;
+    private final int totalSeats = 50;
     private Passenger[] seats = new Passenger[totalSeats];
 
     public boolean bookSeat(String name, int age, int seatNumber) {
