@@ -33,7 +33,7 @@ public class Main {
                     String name = sc.nextLine();
                     System.out.print("Enter Age: ");
                     int age = sc.nextInt();
-                    System.out.print("Enter Seat No (1-10): ");
+                    System.out.print("Enter Seat No (1-50): ");
                     int seat = sc.nextInt();
                     if (system.bookSeat(name, age, seat)) {
                         System.out.println("Ticket booked!");
